@@ -51,7 +51,7 @@ const Footers = () => {
                             </a>
                         </li>
                         <li>
-                            <a href="#" className="hover:underline">
+                            <a href="#" className="mr-4 hover:underline md:mr-6 ">
                                 <img
                                     src={Instagram}
                                     className="h-8 mr-3"

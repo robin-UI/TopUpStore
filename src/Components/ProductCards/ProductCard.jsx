@@ -2,7 +2,7 @@ import './ProductCard.css'
 
 const ProductCard = () => {
     return (
-        <div className='flex justify-center my-2'>
+        <div className='flex justify-center my-2 md:mr-[3rem]'>
             <div className="  dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">
                     <img className="card-image" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt="" />

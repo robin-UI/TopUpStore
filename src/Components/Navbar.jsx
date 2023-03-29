@@ -4,7 +4,7 @@ import Basket from '../assets/Basket.svg'
 
 const Navbar = () => {
     return (
-        <header className='fixed z-50 w-full'>
+        <header className='fixed z-50 w-full top-0'>
             <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900 ">
                 <div className=" flex flex-wrap items-center justify-between mx-auto mb-3">
                     <div className="flex items-center ">

@@ -4,9 +4,8 @@ const TopCarousel = () => {
     return (
 
 
-        <div className="h-[41rem]  pt-[4.9rem] carousel rounded-none -z-50 " >
+        <div className=" h-[19rem] pt-[8rem] mt-[0.75rem] md:h-[41rem]  md:pt-[4.9rem] carousel rounded-none -z-50 " >
             <Carousel
-                // slide={false}
                 leftControl = {" "} 
                 rightControl= {" "} 
             >
