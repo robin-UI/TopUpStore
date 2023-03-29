@@ -8,8 +8,8 @@ const Category = () => {
 
       <div className='firstSection md:bg-gray-300 md:pt-56 md:px-14' >
         <div className="topSection flex justify-between mb-4">
-          <h2 className='text-xl font-bold' >Shop by Category</h2>
-          <p className='text-sm text-red-600' >{`See all products >`}</p>
+          <h2 className=' font-bold text-2xl' >Shop by Category</h2>
+          <p className='text-sm text-red-600' >{`See All Products >`}</p>
         </div>
 
         <div className="flex flex-col m-auto p-auto my-6 ">
