@@ -7,21 +7,21 @@ import Instagram from '../../assets/Instagram.svg'
 
 const Footers = () => {
     return (
-        <footer className=" rounded-lg shadow dark:bg-gray-900 m-4 ">
-            <div className="w-full container mx-auto pt-3 md:px-6 md:py-8">
-                <div className="sm:items-center sm:justify-between flex flex-col items-center bg-gray-300">
+        <footer className=" rounded-lg shadow dark:bg-gray-900 ">
+            <div className="w-full mr-0">
+                <div className="sm:items-center sm:justify-between flex flex-col items-center bg-gray-300  pt-10">
                     <a
                         href="https://flowbite.com/"
-                        className="flex items-center mb-4 sm:mb-0"
+                        className="flex items-center mb-2 sm:mb-0"
                     >
                         <img
                             src={Group1136}
-                            className="h-8 mr-3"
+                            className="mr-3 w-48 h-14"
                             alt="Flowbite Logo"
                         />
 
                     </a>
-                    <h3>Social Media</h3>
+                    <h3 className='my-4 font-bold' >Social Media</h3>
                     <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
                         <li>
                             <a href="#" className="mr-4 hover:underline md:mr-6 ">
@@ -62,7 +62,7 @@ const Footers = () => {
                     </ul>
                 </div>
 
-                <span className="block text-sm text-red-500 text-center dark:text-gray-400">
+                <span className="block text-sm text-red-500 text-center py-4 ">
                     Copyright{" "}
                     <a href="https://flowbite.com/" className="hover:underline">
                         © 2021 Fetch.

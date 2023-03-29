@@ -4,25 +4,29 @@ const TopCarousel = () => {
     return (
 
 
-        <div className="h-56 sm:h-64 xl:h-80 2xl:h-96 carousel" style={{height: "190px"}}>
-            <Carousel>
-                <img
-                    className='h-56'
-                    src="http://localhost:5173/images/Group1.png"
-                    alt="..."
-                />
-                <img
-                    className='h-56'
-                    src="http://localhost:5173/images/Group1.png"
-                    alt="..."
-                />
-                <img
-                    className='h-56'
-                    src="http://localhost:5173/images/Group1.png"
-                    alt="..."
-                />
-            </Carousel>
-        </div>
+        <div className="h-56 sm:h-64 xl:h-80 2xl:h-96 carousel rounded-none" style={{ height: "190px" }}>
+            <Carousel
+                slide={false}
+                leftControl = {" "} 
+                rightControl= {" "} 
+            >
+            <img
+                className='h-56 rounded-none'
+                src="http://localhost:5173/images/Group1.png"
+                alt="..."
+            />
+            <img
+                className='h-56 rounded-none'
+                src="http://localhost:5173/images/Group1.png"
+                alt="..."
+            />
+            <img
+                className='h-56 rounded-none'
+                src="http://localhost:5173/images/Group1.png"
+                alt="..."
+            />
+        </Carousel>
+        </div >
 
 
 
@@ -83,7 +87,7 @@ const TopCarousel = () => {
         //         <div className="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
         //             <button
         //                 type="button"
-        //                 className="w-3 h-3 rounded-full"
+        //                 className="w-7 h-3  bg-white"
         //                 aria-current="true"
         //                 aria-label="Slide 1"
         //                 data-carousel-slide-to={0}
