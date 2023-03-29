@@ -1,0 +1,22 @@
+.carousel {
+    height: 14rem;
+}
+
+@media (min-width: 640px) {
+    .carousel {
+        height: 16rem;
+    }
+}
+
+
+@media (min-width: 1280px) {
+    .carousel {
+        height: 20rem;
+    }
+}
+
+@media (min-width: 1536px) {
+    .carousel{
+        height: 24rem
+    }
+}
