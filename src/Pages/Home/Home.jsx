@@ -9,7 +9,7 @@ const Home = () => {
     return (
         <>
             <Navbar />
-            <div className='px-5 md:bg-gray-300'>
+            <div className='px-5 md:bg-gray-300 relative '>
                 <TopCarousel />
                 <ProductSection />
             </div>

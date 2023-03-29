@@ -3,7 +3,7 @@ import ProductCard from "../ProductCards/ProductCard"
 
 const ProductSection = () => {
     return (
-        <div className="p-4 md:bg-white md:mt-5">
+        <div className="p-4 md:bg-white md:mt-5 md:absolute md:left-11 md:top-3/4 md:w-[79rem] md:rounded-md">
             <div className="topSection flex justify-between mb-4">
                 <h2 className='text-xl font-bold' >New Arrivals</h2>
                 <p className='text-sm text-red-600' >{`See all products >`}</p>

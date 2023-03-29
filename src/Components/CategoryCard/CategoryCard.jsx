@@ -2,7 +2,7 @@ import React from 'react'
 
 const CategoryCard = () => {
   return (
-    <div className='flex justify-center mb-4'>
+    <div className=' md:mb-4 md:mr-5 md:w-40'>
       <div>
         <div className='image mb-2 '>
           <img className="card-image" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt="" />

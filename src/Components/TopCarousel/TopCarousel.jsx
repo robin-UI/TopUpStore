@@ -4,24 +4,24 @@ const TopCarousel = () => {
     return (
 
 
-        <div className="h-56 sm:h-64 xl:h-80 2xl:h-96 carousel rounded-none" style={{ height: "190px" }}>
+        <div className="h-[41rem]  pt-[4.9rem] carousel rounded-none -z-50 " >
             <Carousel
-                slide={false}
+                // slide={false}
                 leftControl = {" "} 
                 rightControl= {" "} 
             >
             <img
-                className='h-56 rounded-none'
+                className='rounded-none'
                 src="http://localhost:5173/images/Group1.png"
                 alt="..."
             />
             <img
-                className='h-56 rounded-none'
+                className=' rounded-none'
                 src="http://localhost:5173/images/Group1.png"
                 alt="..."
             />
             <img
-                className='h-56 rounded-none'
+                className=' rounded-none'
                 src="http://localhost:5173/images/Group1.png"
                 alt="..."
             />

@@ -4,17 +4,50 @@ import Basket from '../assets/Basket.svg'
 
 const Navbar = () => {
     return (
-        <header>
+        <header className='fixed z-50 w-full'>
             <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900 ">
                 <div className=" flex flex-wrap items-center justify-between mx-auto mb-3">
-                    <a href="https://flowbite.com/" className="flex items-center">
+                    <div className="flex items-center ">
                         <img
                             src={Group1136}
                             className="h-6 mr-3 sm:h-9"
                             alt="Top UP Logo"
                         />
+                        <form className='hidden md:block md:w-96 md:ml-7'>
+                            <label
+                                htmlFor="default-search"
+                                className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
+                            >
+                                Search
+                            </label>
+                            <div className="relative">
 
-                    </a>
+                                <input
+                                    type="search"
+                                    id="default-search"
+                                    className="block w-full p-3 pl-4 text-sm text-gray-900 border-none rounded-md bg-[#F1F1F1]  dark:placeholder-gray-400 dark:text-white "
+                                    placeholder="Search Products..."
+                                />
+                                <div className="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
+                                    <svg
+                                        aria-hidden="true"
+                                        className="w-5 h-5 text-[#D44215] dark:text-gray-400"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            strokeWidth={2}
+                                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                                        />
+                                    </svg>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                     <div className="flex md:order-2">
                         <button
                             type="button"
@@ -33,7 +66,7 @@ const Navbar = () => {
                             <img src={Basket} alt="Top Up Basket" className='w-8 ml-2' />
                         </button>
                     </div>
-                    
+
                 </div>
 
                 <form className='md:hidden'>
